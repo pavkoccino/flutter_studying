@@ -1,1 +1,11 @@
-# flutter_studying
+# Flutter study
+- language: Dart. Looks kinda similar to Java.
+- Material design.
+- Hot reload is a nice thing.
+- Almost everything is a Widget.
+- installing dependency flutter pub add english_words
+- Stateless widgets are immutable, all values in them are final and cannot change.
+- Stateful widgets are the opposites. Abbreviation for boilerplate code is stful.
+- Prefixing with the underscore ensures privacy in Dart.
+- setState() triggers a call to the build() and that results in an update of UI.
+- How navigation works, from documentation: "In Flutter, the Navigator manages a stack containing the app's routes. Pushing a route onto the Navigator's stack updates the display to that route. Popping a route from the Navigator's stack returns the display to the previous route."
