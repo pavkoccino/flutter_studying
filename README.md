@@ -15,3 +15,6 @@ memory references but rather the content of the variable.
 - int? newNumber; // newNumber type allows nullability
 - print(goalScorer?.length); only calls the length method if goalScorer is not null
 - print(goalScorer!.length); we are confident that variable is not null
+- With stateless widgets, you should set your variables as final because 
+a stateless widget should not, by definition, be able to mutate its state. Using final variables 
+ensures this cannot happen.
