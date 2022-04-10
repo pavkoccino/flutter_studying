@@ -18,3 +18,9 @@ memory references but rather the content of the variable.
 - With stateless widgets, you should set your variables as final because 
 a stateless widget should not, by definition, be able to mutate its state. Using final variables 
 ensures this cannot happen.
+- No interfaces.
+- No modifiers or access, except underscore. That means the thingy is private to the library (library is usually considered single file)
+- Inheritance is possible only from one other class. But there is something called **mixins** that can "replace" this.
+- Implicit getters and setters.
+- No need to use word "new" when instanciating objects.
+- All classes are implicitely interfaces.
