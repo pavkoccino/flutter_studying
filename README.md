@@ -30,6 +30,7 @@ ensures this cannot happen.
 - Inside the method, where change happens, we can call NotifyListeners().
 - Top-most widget should be wrapped with ChangeNotifierProvider widget, where you pass create: (ctx) => NameOfTheClassThatHasChangeNotifiedMixin().
 - Then in the widget I am interested in listening, I need to get a provider object like this final productsData = Provider.of<Products>(context). Into the <> generic type brackets you specify in which provider you are interested.
+- In case we need more providers we can use MultiProvider(providers: [ChangeNotifierProvider.value(value: Product()),]
 
 ## Mixins vs Extends
 - Extends = normal inheritance.
