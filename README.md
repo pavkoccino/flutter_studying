@@ -38,3 +38,6 @@ ensures this cannot happen.
 - Crucial difference in Dart is that you can extend from one parent, but with mixins, you can add as many mixins as you want.
 - Think of mixins like lightweight inheritance, not so strong connection.
 
+### Just random stuff
+- SnackBar() - that is a bar that can draw from Scaffold and show a user certain thing happened.
+- Dismissible has confimDismiss attribute where we can for example show dialog and ask for a confirmation the user really wants to do the action or not.
