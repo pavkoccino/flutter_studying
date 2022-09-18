@@ -41,3 +41,6 @@ ensures this cannot happen.
 ### Just random stuff
 - SnackBar() - that is a bar that can draw from Scaffold and show a user certain thing happened.
 - Dismissible has confimDismiss attribute where we can for example show dialog and ask for a confirmation the user really wants to do the action or not.
+- Form() is a great out of the box widget that enables all kinds of validations.
+- Be careful with the ListView and long forms. You could potentially lose some input if the list would be too long. Switch to Column + SingleChildScrollView combo instead to fix this.
+- When working with FocusNodes don't forget to dispose them.
