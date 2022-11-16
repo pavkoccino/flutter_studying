@@ -44,3 +44,6 @@ ensures this cannot happen.
 - Form() is a great out of the box widget that enables all kinds of validations.
 - Be careful with the ListView and long forms. You could potentially lose some input if the list would be too long. Switch to Column + SingleChildScrollView combo instead to fix this.
 - When working with FocusNodes don't forget to dispose them.
+
+### BLOC
+[BLOC](https://github.com/pavkoccino/flutter_studying/blob/main/bloc.md)
